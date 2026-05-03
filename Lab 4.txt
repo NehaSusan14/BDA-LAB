@@ -1,4 +1,4 @@
-hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/nafees-cs279$ start-dfs.sh
+hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/Neha$ start-dfs.sh
 Starting namenodes on [localhost]
 Starting datanodes
 Starting secondary namenodes [bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC]
@@ -10,8 +10,8 @@ Starting nodemanagers
 8199 NameNode
 8970 ResourceManager
 3837 org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar
-hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/nafees-cs279$ hdfs dfs -put /home/hadoop/nafees-cs279/sample.txt /input
-hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/nafees-cs279$ hadoop jar /home/hadoop/nafees-cs279/WordCount.jar wordcount.WCDriver /input /output
+hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/Neha$ hdfs dfs -put /home/hadoop/Neha/sample.txt /input
+hadoop@bmscecse-HP-Pro-Tower-400-G9-PCI-Desktop-PC:~/Neha$ hadoop jar /home/hadoop/Neha/WordCount.jar wordcount.WCDriver /input /output
 2026-03-31 15:46:49,483 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
 2026-03-31 15:46:49,738 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
 2026-03-31 15:46:49,885 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1774952033078_0001
